@@ -1,0 +1,42 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.os-animation {
+    opacity: 0;
+}
+
+.os-animation.animated {
+    opacity: 1;
+}
+
+.parallax-titulo h3,
+.parallax-titulo h4,
+.parallax-titulo h5,
+.parallax-titulo h2 {
+    color: white;
+    text-shadow: 2px 2px rgba(51, 51, 51, 0.5);
+    text-align: center;
+}
+
+#map {
+    border: 2px solid #0099ff;
+    margin-top: 20px;
+    border-radius: 50%;
+box-shadow: 0 4px 5px 0 rgba(1, 0, 0, 0.66), 0 2px 10px 0 rgba(0, 0, 0, 0.72);
+   
+}
+
+
