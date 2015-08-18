@@ -2790,7 +2790,7 @@ video.responsive-video {
     height: 100%;
     color: white;
     padding-top: 6rem;
-    background-image: url('http://zuma.helloworldsoft.com/img/bg_video.png');
+    background-image: url('../img/bg_video.png');
 }
 
 .parallax-titulo h1 {

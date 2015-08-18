@@ -308,3 +308,91 @@
 }
 /* FIM TIMELINE*/
 
+#horario-resumido td,
+#horario-resumido th {
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#horario-resumido {
+    margin: 0px 0px 20px 0px;
+}
+
+.horario-vazio {
+    background-color: #7f7f7f;
+}
+
+.horario-plenaria {
+    background-color: #1e88e5;
+    color: white;
+}
+
+.horario-especial {
+    background-color: #3aab49;
+    color: white;
+}
+
+.horario-almoco {
+    background-color: #cb8344;
+    color: white;
+}
+
+.horario-trabalhos {
+    background-color: #c9302c;
+    color: white;
+}
+
+.horario-sessao {
+    background-color: #c377e0;
+    color: white;
+}
+
+.horario-adsorcao {
+    background-color: #EF6C00;
+    color: white;
+}
+
+.horario-open {
+    background-color: #37474F;
+    color: white;
+}
+
+.horario-abertura {
+    background-color: #795548;
+    color: white;
+}
+
+.horario-coffee {
+    background-color: #EC407A;
+    color: white;
+}
+
+.horario-detalhado h4 {
+    padding: 5px;
+    margin: 0px;
+}
+
+.horario-detalhado ul {
+    margin: 0px;
+}
+
+.header-escola {
+    background-color: #1e88e5 !important;
+    color: white;
+}
+
+
+.card.area {
+    height: 200px;
+}
+
+.card.area .card-image {
+    height: 130px;
+}
+
+.card.area .card-content {
+    padding: 5px;
+    border-radius: 0 0 2px 2px;
+    text-align: center;
+}
