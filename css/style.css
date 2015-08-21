@@ -48,7 +48,7 @@
 
 .timeline>li:nth-child(even) {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     height: 180px;
     right: -100px;
 }
@@ -74,9 +74,11 @@
 .timeline > li .timeline-panel {
     position: relative;
     float: left;
-    width: 41%;
+    width: 42%;
     padding: 0 30px 20px 40px;
-    text-align: right;
+    text-align: justify;
+    line-height: 16px;
+    
 }
 
 .timeline>li .timeline-panel:before {
@@ -110,12 +112,15 @@
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
+
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 30px 20px 30px;
-    text-align: left;
+ 
+        padding: 0 30px 20px 30px;
+    margin-top: -20px;
+    text-align: justify;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -141,6 +146,7 @@
     margin-bottom: 4px;
     padding: 0;
     color: #b3b3b3;
+    font-size:1.58rem;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -197,6 +203,19 @@
     box-shadow: 0 0 5px #4582ec;
 }
 /* Medium Devices, .visible-md-* */
+
+@media(min-width:1199px){
+    
+    .contaier-historico{
+        width: 96% !important;
+    }
+    
+    .text-muted{
+    font-size: 14px;
+        line-height: 15px;
+    }
+}
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .timeline > li:nth-child(even) {
@@ -395,4 +414,23 @@
     padding: 5px;
     border-radius: 0 0 2px 2px;
     text-align: center;
+}
+
+
+.texto-palestrante{
+margin: 0px;
+}
+
+.btn-floating.btn-contato
+{
+    width: 125.5px;
+    height: 125.5px;
+}
+
+.btn-floating.btn-contato i {
+    line-height: 125.5px;
+}
+
+.btn-contato i {
+font-size: 3.6rem;
 }
