@@ -78,7 +78,6 @@
     padding: 0 30px 20px 40px;
     text-align: justify;
     line-height: 16px;
-    
 }
 
 .timeline>li .timeline-panel:before {
@@ -112,13 +111,11 @@
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
-
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
- 
-        padding: 0 30px 20px 30px;
+    padding: 0 30px 20px 30px;
     margin-top: -20px;
     text-align: justify;
 }
@@ -146,7 +143,7 @@
     margin-bottom: 4px;
     padding: 0;
     color: #b3b3b3;
-    font-size:1.58rem;
+    font-size: 1.58rem;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -204,18 +201,15 @@
 }
 /* Medium Devices, .visible-md-* */
 
-@media(min-width:1199px){
-    
-    .contaier-historico{
+@media(min-width:1199px) {
+    .contaier-historico {
         width: 96% !important;
     }
-    
-    .text-muted{
-    font-size: 14px;
+    .text-muted {
+        font-size: 14px;
         line-height: 15px;
     }
 }
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .timeline > li:nth-child(even) {
@@ -329,7 +323,9 @@
 
 #horario-resumido td,
 #horario-resumido th {
-    padding: 2px;
+    padding: 7px 2px;
+  
+  
     border: 1px solid black;
     text-align: center;
 }
@@ -401,7 +397,6 @@
     color: white;
 }
 
-
 .card.area {
     height: 200px;
 }
@@ -416,13 +411,11 @@
     text-align: center;
 }
 
-
-.texto-palestrante{
-margin: 0px;
+.texto-palestrante {
+    margin: 0px;
 }
 
-.btn-floating.btn-contato
-{
+.btn-floating.btn-contato {
     width: 125.5px;
     height: 125.5px;
 }
@@ -432,5 +425,12 @@ margin: 0px;
 }
 
 .btn-contato i {
-font-size: 3.6rem;
+    font-size: 3.6rem;
+}
+
+
+
+a.hello:hover {
+
+    color: #dcdcdc !important;
 }
