@@ -434,3 +434,22 @@ a.hello:hover {
 
     color: #dcdcdc !important;
 }
+
+.custom-item-colection .collection-item{
+    min-height: 64px !important;
+}
+
+
+.custom-tab .tabs .tab a 
+{
+ color:#1e88e5 !important;
+}
+
+.custom-tab .tabs .tab a:hover
+{
+ color:#7bbdf7 !important;   
+}
+
+.custom-tab .tabs .indicator{
+ background-color: #1e88e5 !important;
+}
