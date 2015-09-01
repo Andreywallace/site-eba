@@ -453,3 +453,8 @@ a.hello:hover {
 .custom-tab .tabs .indicator{
  background-color: #1e88e5 !important;
 }
+
+#table-importante th,tr,td{
+ padding:0px;
+    font-size:1.2rem;
+}
